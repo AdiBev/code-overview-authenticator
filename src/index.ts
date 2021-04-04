@@ -1,5 +1,5 @@
 import express from "express";
-import router from "./src/routes/authenticate";
+import router from "./routes/authenticate";
 
 const app = express();
 const PORT = 8000;
