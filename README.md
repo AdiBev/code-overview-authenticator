@@ -8,6 +8,10 @@ Create `.dev.env` file and create two variables named `CLIENT_SECRET` & `CLIENT_
 
 You will need to get these values from [**Github**](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
 
+Install `node_modules` on host
+
+`npm ci`
+
 If you are on Windows and don't have **Make** installed use below command to run. This will pull `docker-compose.yml` file and load `.dev.env` file variables.
 
 `docker-compose --env-file ./.dev.env up`
@@ -38,6 +42,10 @@ If you have **Make** installed command below. This is running exact same command
 Create `.prod.env` file and create two variables named `CLIENT_SECRET` & `CLIENT_ID`.
 
 You will need to get these values from [**Github**](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).
+
+Install `node_modules` on host
+
+`npm ci`
 
 To run in `dev` env run this command `npm run start`
 
